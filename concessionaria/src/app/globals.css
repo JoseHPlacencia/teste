@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-white text-graphite antialiased}
+.btn{@apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent}
+.btn-primary{@apply bg-accent text-white hover:bg-accent-dark}
+.btn-light{@apply bg-white text-ink hover:bg-neutral-200}
+.field{@apply w-full rounded-lg border border-neutral-300 bg-white px-3 py-2 text-sm text-ink}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
